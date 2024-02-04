@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@angular/core": "^17.1.2",
+    "@angular/router": "^17.1.2"
+  }
+}
