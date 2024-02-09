@@ -9,3 +9,16 @@
     padding: 25px;
     margin: 20px;
   }
+
+  div{
+    background-color:red;
+    color:black;
+  }
+  div:nth-of-type(2){
+    background-color:black;
+    color:grey;
+  }
+  div:last-of-type{
+    background-color:brown;
+    color: blue;
+  }
