@@ -4,11 +4,13 @@ import { Content } from '../helper-files/content-interface';
 import { ContentCardComponent } from '../content-card/content-card.component';
 import { TypesupporterPipe } from '../typesupporter.pipe';
 import { FormsModule } from '@angular/forms';
+import { HoverAffectDirective } from '../hover-affect.directive';
+
 
 @Component({
   selector: 'app-content-list',
   standalone: true,
-  imports: [CommonModule, ContentCardComponent, TypesupporterPipe, FormsModule],
+  imports: [CommonModule, ContentCardComponent, TypesupporterPipe, FormsModule, HoverAffectDirective],
   templateUrl: './content-list.component.html',
   styleUrl: './content-list.component.scss'
 })
@@ -82,7 +84,7 @@ export class ContentListComponent implements OnInit {
         title: "Hritik Roshan",
         description: "Well knwon indian actor with some good dance and action moves.",
         creator: "Hritik Roshan",
-        imgURL: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/238324_v9_bb.jpg",
+        imgURL: "",
         type: "Punjab",
         tags: ["Action", "Dance"]
       
