@@ -1,6 +1,8 @@
 <input type="text" [(ngModel)]="searchTitle" placeholder="Enter title">
 <button (click)="checkContentExists()">Look for Actors</button>
 
+<h1>Acotr display from single id</h1>
+<app-content-card [contentItem]="items"></app-content-card>
 
 <p [ngStyle]="{'color': contentExists ? 'green' : 'red'}">{{ message }}</p>
 
